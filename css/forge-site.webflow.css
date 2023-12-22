@@ -1045,6 +1045,18 @@ a {
 .footer-legal {
   border-top: 1px solid var(--accent-opacity-10);
   padding-top: 24px;
+  display: flex;
+  position: relative
+}
+
+.copyright-position {
+  position: absolute;
+  right: 0;
+}
+
+.company-address {
+  width: 100%;
+  text-align: start !important;
 }
 
 .h1-word {
